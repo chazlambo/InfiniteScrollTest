@@ -16,10 +16,10 @@
 #define PIN_DC 10    // mandatory, can be any pin but using pin 10 (or 36 or 37 on T4.1) provides greater performance
 
 #define PIN_CS 9     // optional (but recommended), can be any pin.
-#define PIN_RESET 6  // optional (but recommended), can be any pin.
+#define PIN_RESET 15  // optional (but recommended), can be any pin.
 ILI9341_t3n tft = ILI9341_t3n(PIN_CS, PIN_DC);
 
-#define SD_CS 4
+#define SD_CS 34
 
 #define SS_SWITCH_SELECT 1
 #define SS_SWITCH_UP 2
